@@ -1,0 +1,17 @@
+@(title: String)(content: Html)
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>@title</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>@title</h1>
+      @content
+    </div>
+  </body>
+</html>

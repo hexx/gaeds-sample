@@ -1,0 +1,11 @@
+@import com.github.hexx.messageboard.Message
+<table class="table table-striped">
+  <thead>
+    <tr><th>Name</th><th>Message</th><th>Date</th></tr>
+  </thead>
+  <tbody>
+    @for(m <- Message.query.sort(_.date desc).asIterator) {
+      <tr><td>@m.name</td><td>@m.message</td><td>@m.date</td></tr>
+    }
+  </tbody>
+</table>
