@@ -1,3 +1,5 @@
+scalaVersion := "2.9.1"
+
 addSbtPlugin("cc.spray" % "sbt-twirl" % "0.5.2")
 
 addSbtPlugin("com.eed3si9n" % "sbt-appengine" % "0.4.0")
