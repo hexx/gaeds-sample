@@ -6,4 +6,5 @@
   <system-properties>
     <property name="in.gae.j" value="true" />
   </system-properties>
+  <threadsafe>true</threadsafe>
 </appengine-web-app>
